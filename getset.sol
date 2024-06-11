@@ -8,7 +8,7 @@ contract GettersAndSetters{
     bool private isTrue;
     address private ad;
     
-    //initializing set function
+    //initializing set function. Values are passed at run time
     function setMessage(string memory newMessage,uint newNum,bool newTrue) public{
          message=newMessage;
          num=newNum;
